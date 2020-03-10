@@ -23,6 +23,8 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
+  carousel_pro: ^1.0.0
+
 
 dev_dependencies:
   flutter_test:
@@ -48,6 +50,11 @@ flutter:
     - assets/logo1.png
     - assets/rocket.png
     - assets/profile.jpg
+    - assets/images/consultancy.jfif
+    - assets/images/consultancy2.jfif
+    - assets/images/consultancy3.jfif
+
+
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
