@@ -1,3 +1,4 @@
+import 'package:easy_consult/screens/Home2.dart';
 import 'package:flutter/material.dart';
 import 'package:easy_consult/screens/UserHome.dart';
 
@@ -168,8 +169,8 @@ class SignIn extends StatelessWidget {
               onPressed: (){
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => SchoolList()),
-                );
+                  MaterialPageRoute(builder: (context) => Home()));
+                
               },
               child: Text("Sign In"),
             ),
